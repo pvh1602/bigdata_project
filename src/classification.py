@@ -7,8 +7,8 @@ from pyspark.sql import SQLContext
 from pyspark.sql import SparkSession, Row
 from pyvi import ViTokenizer
 import sys
-cv_model = pickle.load(open('./trained_models/tfidf_model.sav', 'rb'))
-log_model = pickle.load(open('./trained_models/log_model.sav', 'rb'))
+cv_model = pickle.load(open('../trained_models/tfidf_model.sav', 'rb'))
+log_model = pickle.load(open('../trained_models/log_model.sav', 'rb'))
 path_model = './trained_models/articles'
 # model = PipelineModel.load('./trained_models/articles')
 # tfidf_model = ...... 
