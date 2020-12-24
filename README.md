@@ -14,6 +14,15 @@ sh run.sh
 ```
 
 ---
+### Download data 
+Download data at: https://drive.google.com/file/d/1tcC6GkXQ1h9FOHr4T_dNFCtC7tFF6nhO/view?usp=sharing
+
+Save to: src/data/
+
+Download Dstream data at: https://drive.google.com/drive/folders/15LBvIETYJ_DCuxAJ6SZ-SCTSp3LRQBBu?usp=sharing 
+
+Save to: src/data/Dstream
+
 ### Start 
 ```bash
 cd big_data_project
